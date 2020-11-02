@@ -19,7 +19,7 @@ export default function Layout({ children, home }) {
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
             siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg&images=images=https%3A%2F%2Fimgix.tomdale.website%2Fkrennic_profile.png%3Fw%3D400%26h%3D400%26mask%3Dellipse`}
+          )}.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg&images=https%3A%2F%2Fimgix.tomdale.website%2Fkrennic_profile.png%3Fw%3D400%26h%3D400%26mask%3Dellipse`}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
