@@ -21,8 +21,8 @@ export default function Home() {
           <Image
             src="/images/beach_zeek.jpg"
             alt="Image"
-            width={400}
-            height={400}
+            width={800}
+            height={800}
             loading="lazy"
             quality={35}
             sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
