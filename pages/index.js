@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.headingLg}>
         <p>Tom Dale</p>
         <h1 className="title">
         Read <Link href="https://dev.to/daletom"><a>original post!</a></Link>
@@ -31,31 +31,11 @@ export default function Home() {
             src="/images/disney.jpg"
             alt="Image"
             width={800}
-            height={800}
+            height={600}
             loading="lazy"
             quality={35}
             sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
           />
-        </div>
-        <div class="column">
-          <Image
-              src="/images/geiranger.jpg"
-              alt="Image"
-              width={800}
-              height={800}
-              loading="lazy"
-              quality={35}
-              sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
-            />
-            <Image
-              src="/images/surat-thani.jpg"
-              alt="Image"
-              width={800}
-              height={800}
-              loading="lazy"
-              quality={35}
-              sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
-            />
         </div>
         <div class="column">
           <Image
@@ -68,10 +48,10 @@ export default function Home() {
               sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
             />
             <Image
-              src="/images/zeekgraffiti.jpg"
+              src="/images/geiranger.jpg"
               alt="Image"
               width={800}
-              height={800}
+              height={600}
               loading="lazy"
               quality={35}
               sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
@@ -88,10 +68,30 @@ export default function Home() {
               sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
             />
             <Image
-              src="/images/kids_skateboard.jpg"
+              src="/images/zeekgraffiti.jpg"
+              alt="Image"
+              width={800}
+              height={600}
+              loading="lazy"
+              quality={35}
+              sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
+            />
+        </div>
+        <div class="column">
+          <Image
+              src="/images/surat-thani.jpg"
               alt="Image"
               width={800}
               height={800}
+              loading="lazy"
+              quality={35}
+              sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
+            />
+            <Image
+              src="/images/kids_skateboard.jpg"
+              alt="Image"
+              width={800}
+              height={600}
               loading="lazy"
               quality={35}
               sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
