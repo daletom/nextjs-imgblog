@@ -2,25 +2,8 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
 import Image from 'next/image'
-function ImageContainer() {
-  return (
-    <>
-      <Image
-        src="/images/beach_zeek.jpg"
-        alt="Image"
-        width={800}
-        height={1000}
-        rot={90}
-        loading="eager"
-        quality={35}
-        sizes="(min-width: 725px) 725px, 100vw"
-      />
-    </>
-  )
-}
-export default ImageContainer
 
-/*export default function FirstPost() {
+export default function FirstPost() {
   return (
     <Layout>
       <Head>
@@ -32,6 +15,16 @@ export default ImageContainer
           <a>Back to home</a>
         </Link>
       </h2>
+      <Image
+        src="/images/beach_zeek.jpg"
+        alt="Image"
+        width={800}
+        height={1000}
+        rot={90}
+        loading="eager"
+        quality={35}
+        sizes="(min-width: 725px) 725px, 100vw"
+      />
     </Layout>
   )
-}*/
+}
