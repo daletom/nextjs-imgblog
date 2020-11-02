@@ -8,8 +8,9 @@ function ImageContainer() {
       <Image
         src="/images/beach_zeek.jpg"
         alt="Image"
-        width={200}
-        height={200}
+        width={800}
+        height={1000}
+        rot={90}
         loading="eager"
         quality={35}
         sizes="(min-width: 725px) 725px, 100vw"
