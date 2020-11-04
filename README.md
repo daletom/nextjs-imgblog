@@ -6,13 +6,31 @@ import Image from 'next/Image'
 ```
 then replace the img tag with Image tag for a local image in the public folder and add a width and height.
 ```
-            <Image
-              src="/images/terrarium.jpg"
-              alt="Image"
-              width={800}
-              height={800}
-              loading="lazy"
-              quality={35}
-              sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
-            />
+<Image
+  src="/images/terrarium.jpg"
+  alt="Terrarium"
+  width={1600}
+  height={1200}
+  loading="lazy"
+  quality={35}
+  sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
+/>
+```
+
+## Cloning this Project
+
+````
+npx create-next-app nextjs-imgopt --use-npm --example "https://github.com/daletom/nextjs-imgblog"
+```
+then run a 
+```
+npm install
+```
+to install the dependencies. The go into the project
+```
+cd nextjs-imgopt
+```
+and run the site in development
+```
+npm run dev
 ```

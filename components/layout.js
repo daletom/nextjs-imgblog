@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const name = 'Vercel Optimizing Images'
 export const siteTitle = 'Next.js Image Optimization Example'
@@ -27,10 +28,13 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <img
+            <Image
               src="/images/krennic_profile.png"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
+              width={150}
+              height={150}
+              quality={75}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
