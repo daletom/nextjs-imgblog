@@ -23,7 +23,7 @@ then replace the img tag with Image tag for a local image in the public folder a
 
 ## Cloning this Project
 
-````
+```
 npx create-next-app nextjs-imgopt --use-npm --example "https://github.com/daletom/nextjs-imgblog"
 ```
 then run a 
