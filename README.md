@@ -1,5 +1,9 @@
 This is a example template for optimizing images with [Next.js version 10](https://nextjs.org/blog/next-10#images-on-the-web).
 
+You can read more about this on my [Dev.to Blog](https://dev.to/daletom/optimizing-images-with-next-js-vercel-3m3n).
+
+## Adding Image Optimization to a Next.js Project
+
 Instead of using an img tag, you can drop in <Image> instead.  All you have to do is 
 ```
 import Image from 'next/Image'

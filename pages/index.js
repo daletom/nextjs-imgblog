@@ -15,7 +15,7 @@ export default function Home() {
           Image Optimization with Next.js 10 deployed using Vercel
         </h1>
         <h4>
-          This is a demo website showing how to optimize images with Next.js 10.  You can find more about this article on my <Link href="https://dev.to/daletom"><a>Dev.to blog.</a></Link>
+          This is a demo website showing how to optimize images with Next.js 10.  You can find more about this article on my <Link href="https://dev.to/daletom/optimizing-images-with-next-js-vercel-3m3n"><a>Dev.to blog.</a></Link>
         </h4>
         <h3 className="title">
         If you would like to see a copy of these images without being optimized, click <Link href="/unopt"><a>here.</a></Link>
